@@ -1,6 +1,6 @@
 <?php
 /**
- * Default English Lexicon Entries for modDiscourseSSO
+ * Default Lexicon Entries for modDiscourseSSO
  *
  * @package moddiscoursesso
  * @subpackage lexicon

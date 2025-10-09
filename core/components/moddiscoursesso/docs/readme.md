@@ -2,6 +2,9 @@
 
 Single-Sign-On Extra for MODX Revolution that integrates the brilliant Discourse forums.
 
+- Author: Murray Wood <murray@digitalpenguin.hk>
+- License: GNU GPLv2
+
 This extra requires MODX 2.3+ and PHP 5.5+. It still works with MODX 3.x, Discourse 3.x. and PHP 8.3.
 
 ## Instructions

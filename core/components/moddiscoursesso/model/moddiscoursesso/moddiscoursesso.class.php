@@ -113,6 +113,14 @@ class modDiscourseSSO {
             'username' => $userUsername,
             'name'     => $userFullName
         );
+        if ($this->modx->getOption('moddiscoursesso.sso_parameters', $this->options, '')) {
+            $ssoParameters = json_decode($this->modx->getOption('moddiscoursesso.sso_parameters', $this->options, ''), true);
+            if ($ssoParameters != null && is_array($ssoParameters)) {
+                foreach ($ssoParameters as $key => $value) {
+                    $extraParameters[$key] = $value;
+                }
+            }
+        }
 
         // build query string and redirect back to the Discourse site
         $query = $this->ssoHelper->getSignInString($nonce, $userId, $userEmail, $extraParameters);

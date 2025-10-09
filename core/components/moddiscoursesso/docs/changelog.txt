@@ -1,9 +1,0 @@
-Changelog for modDiscourseSSO.
-
-modDiscourseSSO 1.0.0
-==============
-- Initial release with main functions working.
-
-modDiscourseSSO 0.0.1
-==============
-- Alpha
