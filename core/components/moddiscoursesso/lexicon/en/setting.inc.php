@@ -16,4 +16,4 @@ $_lang['setting_moddiscoursesso.scheme_desc'] = 'The Discourse url scheme.';
 $_lang['setting_moddiscoursesso.secret'] = 'Discourse Secret Code';
 $_lang['setting_moddiscoursesso.secret_desc'] = 'The Discourse secret code that is used to hash the SSO payloads.';
 $_lang['setting_moddiscoursesso.sso_parameters'] = 'Additional SSO Parameters';
-$_lang['setting_moddiscoursesso.sso_parameters_desc'] = 'JSON encoded array of additional SSO parameters.';
+$_lang['setting_moddiscoursesso.sso_parameters_desc'] = 'JSON-encoded array of additional SSO parameters.';
