@@ -14,7 +14,7 @@ abstract class modDiscourseSSOBaseManagerController extends modExtraManagerContr
         $this->addJavascript($this->moddiscoursesso->getOption('jsUrl').'mgr/moddiscoursesso.js');
         $this->addHtml('<script type="text/javascript">
         Ext.onReady(function() {
-            modDiscourseSSO.config = '.$this->modx->toJSON($this->moddiscoursesso->options).';
+            modDiscourseSSO.config = '.$this->modx->toJSON($this->moddiscoursesso->getManagerOptions()).';
             modDiscourseSSO.config.connector_url = "'.$this->moddiscoursesso->getOption('connectorUrl').'";
         });
         </script>');
